@@ -59,9 +59,5 @@ public class Cliente
 		if (Minecraft.getMinecraft().gameSettings.CLIENT_GUI_MOD_POS.isPressed()) {
 			hudManager.openConfigScreen();
 		}
-		if(UpdateChecker.shouldUpdate()) {
-			
-			
-		}
 	}
 }
